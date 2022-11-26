@@ -3,15 +3,12 @@ package com.group.crafteducate.ui.login
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.view.View
-import android.widget.EditText
 import android.widget.Toast
-import androidx.appcompat.widget.AppCompatButton
 import com.google.firebase.auth.FirebaseAuth
 import com.group.crafteducate.MainActivity
-import com.group.crafteducate.R
 import com.group.crafteducate.databinding.LoginBinding
-import kotlinx.coroutines.withContext
 
 class Login : AppCompatActivity() {
 
@@ -46,7 +43,8 @@ class Login : AppCompatActivity() {
                         val intent = Intent(this, MainActivity::class.java)
                         startActivity(intent)
                     } else {
-                        showToast(it.exception.toString())
+                        showToast("Login Failed")
+                        Log.e("Firebase",it.exception.toString())
                     }
                 }
             }

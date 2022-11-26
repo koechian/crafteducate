@@ -40,7 +40,7 @@ class Register : AppCompatActivity() {
             val confirmPassword =binding.confirmPassword.text.toString()
 
 
-            if (registerEmail.isNullOrBlank() or registerEmail.isNullOrBlank() or confirmPassword.isNullOrBlank()) {
+            if (registerEmail.isBlank() or registerEmail.isBlank() or confirmPassword.isBlank()) {
                 showToast("Please make sure all fields are filled")
             } else {
                 if (registerPassword == confirmPassword) {
@@ -49,13 +49,15 @@ class Register : AppCompatActivity() {
                     ).addOnCompleteListener {
                         if (it.isSuccessful) {
                             showToast("Account has been created")
+                            val intent = Intent(this, Login::class.java)
+                            startActivity(intent)
                         } else {
-                            showToast("Fuck")
-                            Log.d("shit",it.exception.toString())
+                            showToast("User Creation Failed")
+                            Log.e("Firebase Error",it.exception.toString())
                         }
                     }
                 } else {
-                    showToast(registerPassword + "" + confirmPassword)
+                    showToast("Passwords do not Match")
                 }
             }
         }
