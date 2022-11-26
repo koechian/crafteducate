@@ -1,4 +1,4 @@
-package com.example.crafteducate
+package com.group.crafteducate
 
 import org.junit.Test
 

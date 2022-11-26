@@ -1,12 +1,11 @@
-package com.example.crafteducate.ui.login
+package com.group.crafteducate.ui.tasks
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.crafteducate.R
 
-class Register : AppCompatActivity() {
+class Tasks : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.fragment_register)
+
     }
 }

@@ -14,7 +14,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="180dp"
-        android:text="Sign Up"
+        android:text="@string/sign_up"
         android:textSize="34sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -27,7 +27,7 @@
         android:layout_marginTop="52dp"
         android:background="@drawable/textfield_bg"
         android:ems="10"
-        android:hint="Email"
+        android:hint="@string/email"
         android:inputType="textEmailAddress"
         android:paddingStart="20dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -36,22 +36,23 @@
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <EditText
-        android:id="@+id/password"
+        android:id="@+id/registerPassword"
         android:layout_width="280dp"
         android:layout_height="55dp"
         android:layout_marginTop="68dp"
         android:background="@drawable/textfield_bg"
         android:ems="10"
-        android:hint="Password"
+        android:hint="@string/password"
         android:inputType="textPassword"
         android:paddingStart="20dp"
+        android:paddingEnd="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/registerEmail" />
 
     <EditText
-        android:id="@+id/confirmedPassword"
+        android:id="@+id/confirmPassword"
         android:layout_width="280dp"
         android:layout_height="55dp"
         android:layout_marginTop="72dp"
@@ -60,12 +61,14 @@
         android:hint="Confirm Password"
         android:inputType="textPassword"
         android:paddingStart="20dp"
+        android:paddingEnd="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/password" />
+        app:layout_constraintTop_toBottomOf="@+id/registerPassword" />
 
     <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/registerButton"
         android:layout_width="200dp"
         android:layout_height="50dp"
         android:background="@drawable/custom_button"
@@ -74,6 +77,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/confirmedPassword" />
+        app:layout_constraintTop_toBottomOf="@+id/confirmPassword" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

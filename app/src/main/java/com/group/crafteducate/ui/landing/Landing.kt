@@ -1,9 +1,9 @@
-package com.example.crafteducate.ui.landing
+package com.group.crafteducate.ui.landing
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import com.example.crafteducate.R
+import com.group.crafteducate.R
 
 class Landing : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

@@ -1,9 +1,9 @@
-package com.example.crafteducate
+package com.group.crafteducate
 
 import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
-
+import com.group.crafteducate.R
 
 
 class MainActivity : AppCompatActivity() {
@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
 //        hide title bar
         supportActionBar?.hide()
 
-        setContentView(R.layout.login)
+        setContentView(R.layout.fragment_register)
     }
 
 
