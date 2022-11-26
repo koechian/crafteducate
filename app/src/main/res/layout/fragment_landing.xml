@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Landing"
+    tools:context=".ui.landing.Landing"
     android:background="@drawable/mainbg">
 
 
@@ -108,6 +108,5 @@
         app:layout_constraintHorizontal_bias="0.549"
         app:layout_constraintStart_toEndOf="@+id/examsButton"
         app:layout_constraintTop_toBottomOf="@+id/calendarsButton" />
-    " />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

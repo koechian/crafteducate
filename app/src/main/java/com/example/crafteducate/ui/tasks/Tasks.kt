@@ -7,6 +7,6 @@ import com.example.crafteducate.R
 class Tasks : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.tasks)
+
     }
 }
