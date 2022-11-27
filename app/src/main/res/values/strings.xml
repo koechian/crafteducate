@@ -16,7 +16,7 @@
 
     <array name="pending_task_titles">
         <item>Mobile Dev App Submission</item>
-        <item>Read on Knowledge Representation</item>
+        <item>Prep For exams</item>
         <item>Business Ethics CAT Makeup</item>
         <item>AI Makeup Lab</item>
     </array>
@@ -30,7 +30,7 @@
 
     <array name="completed_task_titles">
         <item>Research Write Up</item>
-        <item>Computer Graphics Submission</item>
+        <item>C.G CAT Submission</item>
         <item>Bias in AI Training</item>
         <item>AI Lab 3</item>
         <item>Bash Scripting</item>
