@@ -10,4 +10,40 @@
     <string name="login_title">login title</string>
     <string name="create_account">Create Account</string>
     <string name="sign_up">Sign Up</string>
+    <string name="profile_photo">Profile Photo</string>
+    <string name="username">Ian Koech</string>
+
+
+    <array name="pending_task_titles">
+        <item>Mobile Dev App Submission</item>
+        <item>Read on Knowledge Representation</item>
+        <item>Business Ethics CAT Makeup</item>
+        <item>AI Makeup Lab</item>
+    </array>
+
+    <array name="pending_due_dates">
+        <item>Due Monday 28th</item>
+        <item>Due Wednesday 30th</item>
+        <item>Due Monday</item>
+        <item>Opens Tomorrow</item>
+    </array>
+
+    <array name="completed_task_titles">
+        <item>Research Write Up</item>
+        <item>Computer Graphics Submission</item>
+        <item>Bias in AI Training</item>
+        <item>AI Lab 3</item>
+        <item>Bash Scripting</item>
+        <item>Pen testing Demonstration</item>
+    </array>
+
+    <array name="completed_due_dates">
+        <item>Due Friday last Week</item>
+        <item>Due Friday last week</item>
+        <item>Due Monday 14th November</item>
+        <item>Due Wednesday 23rd November</item>
+        <item>Due Wednesday 23rd November</item>
+        <item>Due Wednesday 23rd November</item>
+    </array>
+
 </resources>

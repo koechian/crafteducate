@@ -69,10 +69,10 @@
         android:padding="12dp"
         android:text="Tasks"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/calendarsButton" />
+        app:layout_constraintTop_toTopOf="@+id/assignmentsButton" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/calendarsButton"
+        android:id="@+id/assignmentsButton"
         android:layout_width="141dp"
         android:layout_height="132dp"
         android:layout_marginTop="108dp"
@@ -112,6 +112,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.549"
         app:layout_constraintStart_toEndOf="@+id/examsButton"
-        app:layout_constraintTop_toBottomOf="@+id/calendarsButton" />
+        app:layout_constraintTop_toBottomOf="@+id/assignmentsButton" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
