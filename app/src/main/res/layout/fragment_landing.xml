@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.landing.Landing"
+    tools:context=".MainActivity"
     android:background="@drawable/mainbg">
 
 
@@ -25,15 +25,15 @@
         android:layout_height="50dp"
         android:layout_marginStart="382dp"
         android:layout_marginEnd="24dp"
-        android:contentDescription="Profile Photo"
+        android:contentDescription="@string/profile_photo"
         android:cropToPadding="false"
+        android:elevation="20dp"
         app:layout_constraintBottom_toBottomOf="@+id/toolbar"
         app:layout_constraintEnd_toEndOf="@+id/toolbar"
         app:layout_constraintHorizontal_bias="0.734"
         app:layout_constraintStart_toEndOf="@+id/toolbar"
         app:layout_constraintStart_toStartOf="@+id/toolbar"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
         tools:src="@drawable/person" />
 
     <TextView
@@ -41,7 +41,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="32dp"
-        android:text="Ian Koech"
+        android:text="@string/username"
         android:textColor="@color/tan"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="@+id/toolbar"
